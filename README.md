@@ -2,32 +2,32 @@
 
 [![Release][13]][14] [![Powered][17]][18] [![MIT licensed][11]][12] [![Build Status][3]][4] [![Go Report Card][5]][6] [![Downloads][15]][16] [![Docker][1]][2]
 
-[1]: https://images.microbadger.com/badges/image/xtaci/kcptun.svg
-[2]: https://microbadger.com/images/xtaci/kcptun
-[3]: https://travis-ci.org/xtaci/kcptun.svg?branch=master
-[4]: https://travis-ci.org/xtaci/kcptun
-[5]: https://goreportcard.com/badge/github.com/xtaci/kcptun
-[6]: https://goreportcard.com/report/github.com/xtaci/kcptun
+[1]: https://images.microbadger.com/badges/image/lu-ping/kcptun.svg
+[2]: https://microbadger.com/images/lu-ping/kcptun
+[3]: https://travis-ci.org/lu-ping/kcptun.svg?branch=master
+[4]: https://travis-ci.org/lu-ping/kcptun
+[5]: https://goreportcard.com/badge/github.com/lu-ping/kcptun
+[6]: https://goreportcard.com/report/github.com/lu-ping/kcptun
 [7]: https://img.shields.io/badge/license-MIT-blue.svg
-[8]: https://raw.githubusercontent.com/xtaci/kcptun/master/LICENSE.md
+[8]: https://raw.githubusercontent.com/lu-ping/kcptun/master/LICENSE.md
 [11]: https://img.shields.io/badge/license-MIT-blue.svg
 [12]: LICENSE.md
-[13]: https://img.shields.io/github/release/xtaci/kcptun.svg
-[14]: https://github.com/xtaci/kcptun/releases/latest
-[15]: https://img.shields.io/github/downloads/xtaci/kcptun/total.svg?maxAge=1800
-[16]: https://github.com/xtaci/kcptun/releases
+[13]: https://img.shields.io/github/release/lu-ping/kcptun.svg
+[14]: https://github.com/lu-ping/kcptun/releases/latest
+[15]: https://img.shields.io/github/downloads/lu-ping/kcptun/total.svg?maxAge=1800
+[16]: https://github.com/lu-ping/kcptun/releases
 [17]: https://img.shields.io/badge/KCP-Powered-blue.svg
 [18]: https://github.com/skywind3000/kcp
 
 <img src="kcptun.png" alt="kcptun" height="300px"/>
 
-> *kcptun maintains a single website — [github.com/xtaci/kcptun](https://github.com/xtaci/kcptun). Any websites other than [github.com/xtaci/kcptun](https://github.com/xtaci/kcptun) are not endorsed by xtaci. kcptun won't publish anything on any social media.*
+> *kcptun maintains a single website — [github.com/lu-ping/kcptun](https://github.com/lu-ping/kcptun). Any websites other than [github.com/lu-ping/kcptun](https://github.com/lu-ping/kcptun) are not endorsed by xtaci. kcptun won't publish anything on any social media.*
 
 > *KCP communication group: 364933586 (QQ group number), KCP integration, tuning, network transmission and related technical discussions.*
 
 ### QuickStart
 
-Download precompiled [Releases](https://github.com/xtaci/kcptun/releases).
+Download precompiled [Releases](https://github.com/lu-ping/kcptun/releases).
 
 ```
 KCP Client: ./client_darwin_amd64 -r "KCP_SERVER_IP:4000" -l ":8388" -mode fast2
@@ -44,8 +44,8 @@ Tunnels the original connection:
 ### Install from source
 
 ```
-$go get -u github.com/xtaci/kcptun/client
-$go get -u github.com/xtaci/kcptun/server
+$go get -u github.com/lu-ping/kcptun/client
+$go get -u github.com/lu-ping/kcptun/server
 ```
 
 All precompiled releases are genereated from `build-release.sh` script.
